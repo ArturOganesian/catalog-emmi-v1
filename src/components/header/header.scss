@@ -1,0 +1,35 @@
+@import '../../stylesVariables/variables.scss';
+@mixin imgMixin($width,$height){
+  width: $width;
+  height: $height;
+}
+
+.global-header{
+    img{
+     cursor: $pointer;
+     width: $logoWidth;
+     height: logoHeight;
+    }
+}
+
+.header-div{
+   display: $display;
+   justify-content: $content;
+   align-items: $center;
+   background-color: $headBgClr;
+   position: fixed;
+   width: $fullWidth;
+   top: 0;
+   
+}
+
+.icon{
+  padding: 10px;
+  cursor: $pointer;
+}
+
+@media (max-width: 500px){
+  .search-bar{
+    display: none;
+  }
+}

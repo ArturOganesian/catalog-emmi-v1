@@ -1,0 +1,48 @@
+@import '../../stylesVariables/variables.scss';
+
+@mixin logos($width,$height){
+   width: $width;
+   height: $height;
+}
+
+.global-footer-section{
+    background-color: $headBgClr;
+    margin-top: 400px;
+    height: 315px;
+
+    
+    img{
+        width: 400px;
+        height: 350px;
+    
+    }
+}
+
+.second-block{
+    img{
+        @include logos(40px,40px);
+        padding: 8px;
+    }
+   
+}
+
+.first-block{
+    display: $display;
+    flex-direction: column;
+    a{
+        padding: 6px;
+    }
+}
+
+.global-footer-section{
+  display: $display;
+  justify-content: space-around;
+  align-items: $center;
+}
+.author{
+    color: grey;
+    position: absolute;
+    top: 675px;
+    right: 30px;
+    font-size: 9px;
+}

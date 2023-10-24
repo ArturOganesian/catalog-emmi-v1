@@ -1,0 +1,47 @@
+.global-footer-section {
+  background-color: rgb(55, 178, 219);
+  margin-top: 400px;
+  height: 315px;
+}
+.global-footer-section img {
+  width: 400px;
+  height: 350px;
+}
+
+.second-block img {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.first-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.first-block a {
+  padding: 6px;
+}
+
+.global-footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author {
+  color: grey;
+  position: absolute;
+  top: 675px;
+  right: 30px;
+  font-size: 9px;
+}
