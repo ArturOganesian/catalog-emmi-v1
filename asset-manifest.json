@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/catalog-emmi-v1/static/css/main.7f3c05d1.css",
+    "main.js": "/catalog-emmi-v1/static/js/main.83574a01.js",
+    "index.html": "/catalog-emmi-v1/index.html",
+    "main.7f3c05d1.css.map": "/catalog-emmi-v1/static/css/main.7f3c05d1.css.map",
+    "main.83574a01.js.map": "/catalog-emmi-v1/static/js/main.83574a01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f3c05d1.css",
+    "static/js/main.83574a01.js"
+  ]
+}
